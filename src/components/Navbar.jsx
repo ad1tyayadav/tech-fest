@@ -37,27 +37,27 @@ function Navbar() {
           >
             Events
           </Link>
-          <a
-            href="/"
+          <Link
+            to={'/teams'}
             className="block md:inline-block hover:text-cyan-400 transition"
             onClick={() => setIsOpen(false)}
           >
             Teams
-          </a>
-          <a
+          </Link>
+          <Link
             href="/"
             className="block md:inline-block hover:text-cyan-400 transition"
             onClick={() => setIsOpen(false)}
           >
             Competitions
-          </a>
-          <a
+          </Link>
+          <Link
             href="/"
             className="block md:inline-block hover:text-cyan-400 transition"
             onClick={() => setIsOpen(false)}
           >
             About
-          </a>
+          </Link>
           <Link
           to={'/auth'}
             className="block text-black md:inline-block px-4 py-2 bg-cyan-500/80 hover:bg-cyan-400 rounded-lg transition mt-3 md:mt-0"

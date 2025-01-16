@@ -9,6 +9,7 @@ import HeroSection from './components/HeroSection.jsx';
 import CountdownTimer from './components/CountdownTimer.jsx';
 import './index.css';
 import EventList from './components/EventList.jsx';
+import Team from './components/Team.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: 'event-details/:id',
         element: <EventDetails />,
+      },
+      {
+        path: 'teams',
+        element: <Team />,
       },
     ],
   },
