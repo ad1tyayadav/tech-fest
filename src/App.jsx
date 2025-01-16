@@ -1,21 +1,17 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import ParticleBackground from './components/ParticleBackground';
-import HeroSection from './components/HeroSection';
-import FeaturesSection from './components/FeaturesSection';
-import CountdownTimer from './components/CountdownTimer';
 import Footer from './components/Footer';
+import { Outlet } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="relative min-h-screen bg-gray-900 text-white">
+    <div className="relative min-h-screen bg-gray-900 text-white w-full">
       <Navbar />
       <ParticleBackground />
-      <main>
-        <HeroSection />
-        <FeaturesSection />
-        <CountdownTimer />
+      <main className="w-full">
+        <Outlet /> {/* Child routes like Events will render here */}
       </main>
       <Footer />
     </div>
