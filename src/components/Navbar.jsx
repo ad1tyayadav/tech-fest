@@ -10,7 +10,7 @@ function Navbar() {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link className="text-2xl font-extrabold hover:text-cyan-400" to={'/'}>
-          TF'25
+          RR'25
         </Link>
 
         {/* Hamburger Icon */}
@@ -35,25 +35,25 @@ function Navbar() {
             Events
           </Link>
           <Link
-            to={'/teams'}
-            className="block md:inline-block hover:text-cyan-400 transition"
-            onClick={() => setIsOpen(false)}
-          >
-            Teams
-          </Link>
-          <Link
             to={'/competitions'}
             className="block md:inline-block hover:text-cyan-400 transition"
             onClick={() => setIsOpen(false)}
           >
-            Competitions
+            Schedule
+          </Link>
+          <Link
+            to={'/teams'}
+            className="block md:inline-block hover:text-cyan-400 transition"
+            onClick={() => setIsOpen(false)}
+          >
+            Robo Rishis
           </Link>
           <Link
             to={'/about'}
             className="block md:inline-block hover:text-cyan-400 transition"
             onClick={() => setIsOpen(false)}
           >
-            About
+            Next-Gen Contributors 
           </Link>
         </div>
 
