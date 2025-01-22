@@ -3,7 +3,7 @@ import React from 'react';
 function HeroSection() {
   return (
     <section className="hero-section w-[100vw] h-screen flex flex-col justify-center items-center text-center relative">
-      <h1 className="text-6xl md:text-8xl font-extrabold text-cyan-400 glitch-text">
+      <h1 className="text-6xl md:text-8xl font-extrabold text-yellow-400 glitch-text">
         Robo Rumble 2.o
       </h1>
       <p className="text-xl mt-4 text-gray-300">
