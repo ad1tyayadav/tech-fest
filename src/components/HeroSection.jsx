@@ -7,7 +7,7 @@ function HeroSection() {
         Robo Rumble 2.o
       </h1>
       <p className="text-xl mt-4 text-gray-300">
-       20 - 22 Febrauary 2025
+       17 Febrauary 2025
       </p>
       <div className="mt-8 flex space-x-4">
         <button className="px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-lg font-semibold rounded-lg"
