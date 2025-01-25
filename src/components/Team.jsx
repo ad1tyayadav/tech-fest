@@ -33,6 +33,13 @@ const Team = () => {
       linkedin: "https://www.linkedin.com/in/akshat-darshi/",
       github: "https://github.com/milliondreamsblog",
     },
+    {
+      name: "Ayush Kanoujiya",
+      role: "Event-Lead",
+      image: "./ayush.jpeg",
+      linkedin: "https://www.linkedin.com/in/ayush-kanoujiya-50a1b825a/",
+      github: "https://github.com/milliondreamsblog",
+    },
   ];
 
   return (

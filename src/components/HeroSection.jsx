@@ -38,7 +38,7 @@ function HeroSection() {
           className="px-6 py-3 bg-transparent border border-cyan-400 hover:bg-cyan-400 text-lg font-semibold rounded-lg"
           onClick={() =>
             window.open(
-              'https://drive.google.com/file/d/1GgkCJRB_qgqnfGfcEdDZxwhrz0LAwe9q/view?usp=sharing',
+              'https://drive.google.com/file/d/1gcdGpn3te8TLFwwC4PJhyf2KqJ02cJrL/view?usp=sharing',
               '_blank'
             )
           }
