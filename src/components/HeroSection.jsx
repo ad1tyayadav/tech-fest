@@ -7,7 +7,7 @@ function HeroSection() {
         Robo Rumble 2.o
       </h1>
       <p className="text-xl mt-4 text-gray-300">
-       17 Febrauary 2025
+       17th - 18th Febrauary 2025...
       </p>
       <div className="mt-8 flex space-x-4">
         <button className="px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-lg font-semibold rounded-lg"
@@ -15,7 +15,7 @@ function HeroSection() {
           Register Now
         </button>
         <button className="px-6 py-3 bg-transparent border border-cyan-400 hover:bg-cyan-400 text-lg font-semibold rounded-lg"
-         onClick={() => window.open('https://drive.google.com/file/d/1GKeP1QqpNzKgwpjWdvlZ8bNApGzp9Qvj/view?usp=sharing', '_blank')}>
+         onClick={() => window.open('https://drive.google.com/file/d/1GgkCJRB_qgqnfGfcEdDZxwhrz0LAwe9q/view?usp=sharing', '_blank')}>
           Learn More
         </button>
       </div>
