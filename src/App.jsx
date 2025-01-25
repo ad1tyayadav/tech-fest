@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div ref={scrollRef} data-scroll-container className="relative min-h-screen text-white w-full">
+      <div ref={scrollRef} data-scroll-container className="text-white w-full">
         <ParticleBackground />
         <main className="w-full">
           <Outlet />

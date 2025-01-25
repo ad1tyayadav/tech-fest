@@ -12,6 +12,8 @@ import EventList from './components/EventList.jsx';
 import Team from './components/Team.jsx';
 import FundingNinjas from './components/FundingNinjas.jsx';
 import Schedule from './components/Schedule.jsx';
+import Contributors from './components/Contributers.jsx';
+import ErrorPage from './components/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -53,6 +55,14 @@ const router = createBrowserRouter([
       {
         path: 'schedule',
         element: <Schedule />,
+      },
+      {
+        path: 'bug-busters',
+        element: <Contributors />,
+      },
+      {
+        path: '*',
+        element: <ErrorPage />,
       },
     ],
   },

@@ -69,9 +69,9 @@ function Navbar() {
             Robo Rishis
           </Link>
           <Link
-            to="/"
+            to="/bug-busters"
             className={`block md:inline-block px-4 py-2 ${
-              isActive('/')
+              isActive('/bug-busters')
                 ? 'text-cyan-400 font-bold'
                 : 'text-white hover:text-cyan-400'
             } transition`}
