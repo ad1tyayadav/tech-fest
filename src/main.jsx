@@ -10,6 +10,8 @@ import CountdownTimer from './components/CountdownTimer.jsx';
 import './index.css';
 import EventList from './components/EventList.jsx';
 import Team from './components/Team.jsx';
+import FundingNinjas from './components/FundingNinjas.jsx';
+import Schedule from './components/Schedule.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,8 @@ const router = createBrowserRouter([
             <CountdownTimer />
             <HeroSection />
             <EventList />
+            <FundingNinjas />
+            <Team />
           </>
         ),
       },
@@ -41,6 +45,14 @@ const router = createBrowserRouter([
       {
         path: 'teams',
         element: <Team />,
+      },
+      {
+        path: 'funding-ninjas',
+        element: <FundingNinjas />,
+      },
+      {
+        path: 'schedule',
+        element: <Schedule />,
       },
     ],
   },

@@ -25,13 +25,6 @@ export const events = [
         img: 'https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg'
 
     },
-    {
-        id: 5,
-        title: 'Robo-Soccer',
-        objective: 'Build a robot to play soccer in knockout-style matches.',
-        img: 'https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg'
-
-    }
 ];
 
 export const eventsDetails = [

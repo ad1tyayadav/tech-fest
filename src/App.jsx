@@ -8,19 +8,19 @@ import LocomotiveScroll from "locomotive-scroll";
 import "./App.css";
 
 function App() {
-  const scrollRef = useRef(null); // Reference for the scroll container
-  const location = useLocation(); // Get the current route
+  const scrollRef = useRef(null);
+  const location = useLocation();
 
   useEffect(() => {
     // Initialize Locomotive Scroll
     const locoScroll = new LocomotiveScroll({
-      el: scrollRef.current, // The scroll container element
-      smooth: true, // Enable smooth scrolling
-      smoothMobile: true, // Enable smooth scrolling on mobile
+      el: scrollRef.current,
+      smooth: true,
+      smoothMobile: true,
     });
 
     // Scroll to the top of the page whenever the route changes
-    locoScroll.scrollTo(0, { duration: 0 }); // Immediately reset scroll position to top on route change
+    locoScroll.scrollTo(0, { duration: 0 });
 
     // Cleanup on component unmount
     return () => {
@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div ref={scrollRef} data-scroll-container className="relative min-h-screen bg-gray-900 text-white w-full">
+      <div ref={scrollRef} data-scroll-container className="relative min-h-screen text-white w-full">
         <ParticleBackground />
         <main className="w-full">
           <Outlet />
