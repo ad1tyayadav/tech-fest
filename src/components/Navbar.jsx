@@ -39,7 +39,7 @@ function Navbar() {
             Events
           </Link>
           <Link
-            to="/competitions"
+            to="/schedule"
             className="block md:inline-block px-4 py-2 text-white hover:text-cyan-400 transition"
             onClick={() => setIsOpen(false)}
           >
@@ -53,14 +53,14 @@ function Navbar() {
             Robo Rishis
           </Link>
           <Link
-            to="/about"
+            to="/"
             className="block md:inline-block px-4 py-2 text-white hover:text-cyan-400 transition"
             onClick={() => setIsOpen(false)}
           >
             Bug Busters
           </Link>
           <Link
-            to="/about"
+            to="/funding-ninjas"
             className="block md:inline-block px-4 py-2 text-white hover:text-cyan-400 transition"
             onClick={() => setIsOpen(false)}
           >

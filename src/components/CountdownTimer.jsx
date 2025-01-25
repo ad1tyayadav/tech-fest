@@ -30,7 +30,7 @@ function CountdownTimer() {
 
   return (
     <section className="relative top-28 countdown-section text-center py-10">
-    <h2 className="text-3xl sm:text-4xl md:text-5xl text-primary font-bold">Event Starts In</h2>
+    <h2 className="text-3xl sm:text-4xl md:text-5xl text-primary glitch-text text-yellow-500 font-bold">Event Starts In</h2>
     <div className="countdown-timer flex flex-wrap justify-center gap-4 mt-6">
       {Object.entries(timeLeft).map(([unit, value]) => (
         <div
@@ -42,6 +42,19 @@ function CountdownTimer() {
         </div>
       ))}
     </div>
+    <p className="text-xl mt-4 text-gray-300">
+       17th - 18th Febrauary 2025...
+      </p>
+    <section className="mt-4 py-6 text-center">
+  <h2 className="text-xl font-semibold text-cyan-400 mb-4">
+    Sponsored By
+  </h2>
+  <img
+    src="/inovation.jpg"
+    alt="Funding Cell Logo"
+    className="h-28 w-auto mx-auto rounded-lg"
+  />
+</section>
   </section>
   );
 }

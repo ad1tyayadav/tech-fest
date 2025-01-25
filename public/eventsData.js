@@ -27,9 +27,9 @@ export const events = [
     },
     {
         id: 5,
-        title: 'Showcase and Exhibition',
-        objective: 'The Showcase your innovation',
-        img: 'https://media-hosting.imagekit.io//59c1e9e359b34f36/exhibition.jpg?Expires=1832391930&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=W3RMmUS3j4J2e06JmuXWLjbNORQVRahj5Nqa88TQIbobKXQ1iZrO6QBcqOxUw5oB-Jbb1HKvKpM~hhuNI13gBiAqM1uqo4NFr6mOtQPdHOCbQJIz8fK6fpv8tvF26smO6T4005pHvzkjBbUgN5WgQ107XzB5D3n7prjRRyVqmWkJUfpIU96OPpfT3pCPWgARz6XgLjESUedCzR8KOW6uvLo0EUREMchHbUyQFdb9QPqATBAb1GhbC-C~iZFOzogPX~N7uACCYmRBfn2OD5CWPD7yMlV2rMKZ90O4T3l1k-~77UuJ~g7XoJL1lVEi4Mz6ZNMKhyCRvn5StGSnLP6Tew__'
+        title: 'Robo-Soccer',
+        objective: 'Build a robot to play soccer in knockout-style matches.',
+        img: 'https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg'
 
     }
 ];
