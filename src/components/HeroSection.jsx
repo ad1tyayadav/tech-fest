@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function HeroSection() {
   return (
-    <section className="mt-20 hero-section w-[100vw] h-[60vh] flex flex-col justify-center items-center text-center relative">
+    <section className="mt-36 hero-section w-[100vw] h-[60vh] flex flex-col justify-center items-center text-center relative">
       <motion.h1
         className="text-6xl md:text-8xl font-extrabold text-yellow-400 glitch-text"
         initial={{ scale: 0.8, opacity: 0 }}
