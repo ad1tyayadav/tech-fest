@@ -18,7 +18,7 @@ function RegisterForm() {
         <button 
           type="button" 
           className="w-full py-3 bg-cyan-500 text-white rounded-lg text-lg font-semibold hover:bg-cyan-400 transition" 
-          onClick={notify}
+          onClick={() => window.open('https://forms.gle/wDGQ4TP64GdPkgE9A', '_blank')}
         >
           Register
         </button>
