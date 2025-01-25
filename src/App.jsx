@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import { Outlet } from "react-router-dom";
 import LocomotiveScroll from "locomotive-scroll";
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const scrollRef = useRef(null);
@@ -38,6 +39,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </>
   );
 }
