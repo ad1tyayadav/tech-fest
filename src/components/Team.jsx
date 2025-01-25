@@ -12,6 +12,20 @@ const Team = () => {
       github: "https://github.com/adityayadav",
     },
     {
+      name: "Aditya Yadav",
+      role: "Team-Dev",
+      image: "https://avatars.githubusercontent.com/u/152635984?v=4", // Replace with actual image URLs
+      linkedin: "https://www.linkedin.com/in/aditya-yadav-39b20529a/",
+      github: "https://github.com/adityayadav",
+    },
+    {
+      name: "Aditya Yadav",
+      role: "Team-Dev",
+      image: "https://avatars.githubusercontent.com/u/152635984?v=4", // Replace with actual image URLs
+      linkedin: "https://www.linkedin.com/in/aditya-yadav-39b20529a/",
+      github: "https://github.com/adityayadav",
+    },
+    {
       name: "Akshat Darshi",
       role: "Tech-Lead",
       image: "https://media.licdn.com/dms/image/v2/D5603AQHSBrR10HyzuQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1704621714877?e=1743033600&v=beta&t=9ti6V7OWvPqpI0kqjwkCh3lChNzd_PYJ-fWrL9uYfmM",

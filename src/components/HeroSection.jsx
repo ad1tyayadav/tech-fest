@@ -15,7 +15,7 @@ function HeroSection() {
           Register Now
         </button>
         <button className="px-6 py-3 bg-transparent border border-cyan-400 hover:bg-cyan-400 text-lg font-semibold rounded-lg"
-         onClick={() => window.open('https://drive.google.com/file/d/1GKeP1QqpNzKgwpjWdvlZ8bNApGzp9Qvj/view?usp=sharing', '_blank')}>
+         onClick={() => window.open('https://drive.google.com/file/d/1GgkCJRB_qgqnfGfcEdDZxwhrz0LAwe9q/view?usp=sharing', '_blank')}>
           Learn More
         </button>
       </div>
