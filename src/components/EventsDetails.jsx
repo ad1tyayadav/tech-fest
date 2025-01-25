@@ -107,7 +107,7 @@ const EventDetails = () => {
           <Link
           to={'/auth'}
             className="px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-lg font-semibold rounded-lg mx-2"
-            onClick={() => window.open('https://forms.gle/wDGQ4TP64GdPkgE9A', '_blank')}
+             onClick={() => window.open('https://forms.gle/wDGQ4TP64GdPkgE9A', '_blank')}
           >
             Register Now
           </Link>

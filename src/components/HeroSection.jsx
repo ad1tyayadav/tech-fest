@@ -1,20 +1,31 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 function HeroSection() {
   return (
     <section className="mt-20 hero-section w-[100vw] h-[60vh] flex flex-col justify-center items-center text-center relative">
-      <h1 className="text-6xl md:text-8xl font-extrabold text-yellow-400 glitch-text">
+      <motion.h1
+        className="text-6xl md:text-8xl font-extrabold text-yellow-400 glitch-text"
+        initial={{ scale: 0.8, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         Robo Rumble 2.o
-      </h1>
+      </motion.h1>
       <p className="text-xl mt-4 text-gray-300">
         17th - 18th February 2025...
       </p>
       {/* Prize Pool Section */}
-      <div className="mt-8 p-6 bg-gradient-to-r from-yellow-500 via-green-500 to-cyan-200 rounded-lg shadow-lg transform transition-all hover:scale-105">
-  <h2 className="text-4xl font-bold text-white animate-pulse">
-    Prize Pool: ₹95,000
-  </h2>
-</div>
+      <motion.div
+        className="mt-8 p-6 bg-gradient-to-r from-yellow-500 via-green-500 to-cyan-200 rounded-lg shadow-lg"
+        initial={{ scale: 0.8, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
+      >
+        <h2 className="text-4xl font-bold text-white animate-pulse">
+          Prize Pool: ₹95,000
+        </h2>
+      </motion.div>
       {/* Buttons */}
       <div className="mt-8 flex space-x-4">
         <button
