@@ -3,28 +3,34 @@ export const events = [
         id: 1,
         title: 'Robo-Obstacle Race',
         objective: "The goal is to build your own robot, either wired or wireless....",
-        img: 'https://techfest.org/static/media/image.89f4ff403ffd225d7e15.png'
+        img: 'https://media-hosting.imagekit.io//599669a71d674239/robo-obstacle.jpg?Expires=1832391930&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=QUF8TWdLytBlNdbiF7yH7UYOv0MkYBexxzsKRb7MvzlSeiA~VAlKDoYBzbJZI2EaZqYfug4Ozu1BPN95gDH4Q-ki~L6wWNnNBOfXZizDAx1zoyRQwa-tqBLWUsaUVXZnshO1YQWea37G1UFXSCopOPrpMaekO7hZnc2qKPfHVFsQIsxlHUBUU20pkNEQTjfYMz~H82qWcqgtGYl9RpTGB-xRtd1HryEsnb3eR5j8WlP2k99Jso0epHp~S~AIrWvtJMr0JEhraeeVdgU1kA5X0DX5cLwc0SaoBN56JgWLAd-LLqv0Ya-axIhKqzSHmygSRPSgu5HhUrI68AulWTM5EQ__'
     },
     {
         id: 2,
         title: 'Robo-War',
         objective: 'Construct a robot for one-on-one combat in an obstacle-filled arena.',
-        img: 'https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg'
+        img: 'https://media-hosting.imagekit.io//0fefec4318254cd7/robo-war.jpg?Expires=1832391930&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=K7IMWin9FzMfBTUNemTBpb3xtVkLo0X8YL3k2egM7Wvx3nJQFwO1zEBmVRkDaD5ORVqVGkAhrh-dDh4n~7nvT1bIlJKFuqR4FAiSMYr3GzaLtS4FuwVDcLPv4sWV6bZD0P2iIuIc8-jS4VGdshUYgSzcczkpxMIDORLrwQVLzuayg0p82FpOH9TaABuL-Ogw~ObIoJ1gVkiq3qrukszre4QYiti9I-xQq17YYT-b1nMRQIn4tu8IZohtqmKc7Lf9-kA13Fr1~KP5a5b4GPnK7uglObniTtyfnyW7ELCTWPNYuXHezv~ox1FyIhdUkQD4GLuOwIuykdTpbD83FmnwbQ__'
     },
     {
         id: 3,
         title: 'Line Following Bot',
         objective: 'Design an autonomous robot to navigate a predefined track.',
-        img: 'https://techfest.org/static/media/image.89f4ff403ffd225d7e15.png'
+        img: 'https://media-hosting.imagekit.io//d76f6906551c47c8/linefollowing.jpg?Expires=1832391930&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JxIESIxvIHgrrEz3HdST4WJ0DPOBWDP5Eq4Bm8HPQZjx4itCMd6HfXbWz-HQqC4M~fo2MOE6umKuG9763Xqh9Lhmu5p0fVGBwU35girXu4XvDCQUa1t~znonep~V-sqUNYYbO6is84OmK4OBCfHxznpYHYcRtdRK-ykPzt9PznyE8ehRR94ca84-DIdg5t-VZSXmcaKBLawysWtyYDALzmcNuHF8v2mLxVMUeEyeqvdVHcS-1SZmhIFm10Bpa4SGrnXDzHKw03PvryREIrWCuDQ5WTVzQ0FkZvxBmm-CJdS1poRr56gbiDOILUyVDyeU89W84~ZRyPxgTqSoytLz-g__'
 
     },
     {
         id: 4,
         title: 'Robo-Soccer',
         objective: 'Build a robot to play soccer in knockout-style matches.',
-        img: 'https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg'
+        img: 'https://media-hosting.imagekit.io//8e3bfdcbb3914af1/soccer.png?Expires=1832391930&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=wo41oukmW6Lq3ZeQ4QbyGzrMDzlR5IPzkY1DPCH8JrDndQIZxZq6Wo4xrVCAGDiW8PBUFYq8mGWsQQckoNk0ilGqpC0uyaR-Mn-p6ESKQW2iOniaDNdNwBqO9BdQMcYfbfTrHdYj7gDisz4Gst3Fe0088p4pYST-pIljD-XVXPHm7FPxED5Ub9LhcCFoFDVJStnFM3AvUlpFftY8iO5MIH69RxPtO1klL7V5BNHeJ2wRiTZkvNLfk4osZne5wwNk0uGlXlF8WM97YQ-lLksbuV5zSCnF97LHH943TK8H42rldwvBRskK-B56CFLyShI7Gsy4xoUD28xPqAfH0xK4ug__'
 
     },
+    {
+        id: 5,
+        title: 'Showcase and Exhibition',
+        objective: 'The Showcase your innovation',
+        img: 'https://media-hosting.imagekit.io//59c1e9e359b34f36/exhibition.jpg?Expires=1832391930&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=W3RMmUS3j4J2e06JmuXWLjbNORQVRahj5Nqa88TQIbobKXQ1iZrO6QBcqOxUw5oB-Jbb1HKvKpM~hhuNI13gBiAqM1uqo4NFr6mOtQPdHOCbQJIz8fK6fpv8tvF26smO6T4005pHvzkjBbUgN5WgQ107XzB5D3n7prjRRyVqmWkJUfpIU96OPpfT3pCPWgARz6XgLjESUedCzR8KOW6uvLo0EUREMchHbUyQFdb9QPqATBAb1GhbC-C~iZFOzogPX~N7uACCYmRBfn2OD5CWPD7yMlV2rMKZ90O4T3l1k-~77UuJ~g7XoJL1lVEi4Mz6ZNMKhyCRvn5StGSnLP6Tew__'
+    }
 ];
 
 export const eventsDetails = [
@@ -64,63 +70,63 @@ export const eventsDetails = [
             "Negative points for moving off track"
         ]
     },
-    
-    {
-        
-            id: 2,
-            image: "https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg",
-            title: "Robo-War",
-            details: "The objective is to construct a robot, either wired or wireless, within the specified guidelines to knockout or push the opponent's robot out of the arena. The arena is equipped with a range of obstacles and hazards that will challenge your robot's durability and combat effectiveness.",
-            generalInfo: [
-                "Do not create robots with pre-assembled kits.",
-                "Robots can have hidden weapons like pneumatic pincers, mighty armors, nifty axes, and more innovative weapons.",
-                "Each team has to come up with a wired/wirelessly controlled robot capable of one-on-one combat.",
-                "Prohibition on disrupting the opponent's power.",
-                "Each team must have 3-5 members only.",
-                "Registration Fee is ₹350 Non-Refundable.",
-                "Only undergraduate and School students with valid college/school IDs are eligible to participate.",
-                "Only the strongest will prevail."
-            ],
-            rewards: [
-                "1st Position: ₹9,000 + Winning Certificate + Trophy",
-                "First Runner Up: ₹6,000 + Winning Certificate + Trophy",
-                "Second Runner Up: ₹5,000 + Winning Certificate + Trophy",
-                "All the participants will get Participant e-Certificate"
-            ],
-            dimensions: [
-                "Width: Not More Than 45cm",
-                "Length: Not More Than 45cm",
-                "Height: No Limitation but does not affect safety of participants and spectators.",
-                "Maximum weight must not exceed 5 kg (including battery for wirelessly controlled Robots).",
-                "However, a tolerance of 10% is acceptable but with penalty."
-            ],
-            powerSource: [
-                "Only electric robots are allowed at the event.",
-                "The battery must be of a sealed and immobilized electrolyte type (gel, lithium, NiCad, or batteries).",
-                "Battery voltage capped at 36 V DC.",
-                "On-site power supplied at 230 V AC; teams must bring adapters/converters (max output: 36 V DC) for AC supply."
-            ],
-            trackDetails: [
-                "The arena is equipped with various concealed weapons such as saws, cutters, flame-throwers, ditches, and other hazards designed to challenge your robot's resilience and combat capabilities."
-            ],
-            gameplay: [
-                "Knock-out style competition featuring 2-player matches.",
-                "Each round lasts for a maximum of 3 minutes having 3 rounds per match.",
-                "Touching bot during the round will award you a penalty.",
-                "Disabling/knockout will ensure max points.",
-                "Victory is achieved if a robot successfully pushes its opponent into the ditch, immobilizes them, or forces them out of the arena.",
-                "Moving obstacles may intermittently appear during battles; robots must evade these obstacles.",
-                "Matches halted upon wire crossings.",
-                "No unauthorized entry into the war zone; coordinator permission required.",
-                "Organizers possess the right to modify the rules.",
-                "Violation of rules leads to disqualification.",
-                "Judges' decisions are final and binding."
-            ]
 
-        
+    {
+
+        id: 2,
+        image: "https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg",
+        title: "Robo-War",
+        details: "The objective is to construct a robot, either wired or wireless, within the specified guidelines to knockout or push the opponent's robot out of the arena. The arena is equipped with a range of obstacles and hazards that will challenge your robot's durability and combat effectiveness.",
+        generalInfo: [
+            "Do not create robots with pre-assembled kits.",
+            "Robots can have hidden weapons like pneumatic pincers, mighty armors, nifty axes, and more innovative weapons.",
+            "Each team has to come up with a wired/wirelessly controlled robot capable of one-on-one combat.",
+            "Prohibition on disrupting the opponent's power.",
+            "Each team must have 3-5 members only.",
+            "Registration Fee is ₹350 Non-Refundable.",
+            "Only undergraduate and School students with valid college/school IDs are eligible to participate.",
+            "Only the strongest will prevail."
+        ],
+        rewards: [
+            "1st Position: ₹9,000 + Winning Certificate + Trophy",
+            "First Runner Up: ₹6,000 + Winning Certificate + Trophy",
+            "Second Runner Up: ₹5,000 + Winning Certificate + Trophy",
+            "All the participants will get Participant e-Certificate"
+        ],
+        dimensions: [
+            "Width: Not More Than 45cm",
+            "Length: Not More Than 45cm",
+            "Height: No Limitation but does not affect safety of participants and spectators.",
+            "Maximum weight must not exceed 5 kg (including battery for wirelessly controlled Robots).",
+            "However, a tolerance of 10% is acceptable but with penalty."
+        ],
+        powerSource: [
+            "Only electric robots are allowed at the event.",
+            "The battery must be of a sealed and immobilized electrolyte type (gel, lithium, NiCad, or batteries).",
+            "Battery voltage capped at 36 V DC.",
+            "On-site power supplied at 230 V AC; teams must bring adapters/converters (max output: 36 V DC) for AC supply."
+        ],
+        trackDetails: [
+            "The arena is equipped with various concealed weapons such as saws, cutters, flame-throwers, ditches, and other hazards designed to challenge your robot's resilience and combat capabilities."
+        ],
+        gameplay: [
+            "Knock-out style competition featuring 2-player matches.",
+            "Each round lasts for a maximum of 3 minutes having 3 rounds per match.",
+            "Touching bot during the round will award you a penalty.",
+            "Disabling/knockout will ensure max points.",
+            "Victory is achieved if a robot successfully pushes its opponent into the ditch, immobilizes them, or forces them out of the arena.",
+            "Moving obstacles may intermittently appear during battles; robots must evade these obstacles.",
+            "Matches halted upon wire crossings.",
+            "No unauthorized entry into the war zone; coordinator permission required.",
+            "Organizers possess the right to modify the rules.",
+            "Violation of rules leads to disqualification.",
+            "Judges' decisions are final and binding."
+        ]
+
+
     },
     {
-            
+
         id: 3,
         image: "https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg",
         title: "Line Following Bot",
@@ -172,7 +178,7 @@ export const eventsDetails = [
 
     },
     {
-        
+
         id: 4,
         image: "https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg",
         title: "Robo-Soccer",
@@ -259,7 +265,7 @@ export const eventsDetails = [
         trackDetails: [
 
         ],
-        gameplay : [
+        gameplay: [
 
         ]
     }

@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
 
 function RegisterForm() {
   const [error, setError] = useState('');
 
-  const notify = () => {
-    toast("App is under construction");
-  };
 
   return (
     <div className="flex w-[100vw] relative justify-center items-center min-h-screen bg-transparent py-10">
@@ -18,12 +14,10 @@ function RegisterForm() {
         <button 
           type="button" 
           className="w-full py-3 bg-cyan-500 text-white rounded-lg text-lg font-semibold hover:bg-cyan-400 transition" 
-          onClick={notify}
+          onClick={() => window.open('https://forms.gle/wDGQ4TP64GdPkgE9A', '_blank')}
         >
           Register
         </button>
-        
-        <ToastContainer />
       </form>
     </div>
   );
