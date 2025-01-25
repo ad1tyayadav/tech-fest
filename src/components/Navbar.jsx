@@ -57,7 +57,14 @@ function Navbar() {
             className="block md:inline-block px-4 py-2 text-white hover:text-cyan-400 transition"
             onClick={() => setIsOpen(false)}
           >
-            Next-Gen Contributors
+            Bug Busters
+          </Link>
+          <Link
+            to="/about"
+            className="block md:inline-block px-4 py-2 text-white hover:text-cyan-400 transition"
+            onClick={() => setIsOpen(false)}
+          >
+            Funding Ninjas
           </Link>
         </div>
 
