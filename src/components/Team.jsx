@@ -32,6 +32,13 @@ const Team = () => {
       linkedin: "https://www.linkedin.com/in/akshat-darshi/",
       github: "https://github.com/milliondreamsblog",
     },
+    {
+      name: "Ayush Kanoujiya ",
+      role: "Event-Lead",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQFdC1TN2uDJgw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718537520443?e=1743033600&v=beta&t=_XzWB-hp_ewnfwRzeZ4sE9sdTqHgPcxmTT-B4IfP2dg",
+      linkedin: "https://www.linkedin.com/in/ayush-kanoujiya-50a1b825a/",
+      github: "https://github.com/milliondreamsblog",
+    },
   ];
 
   return (

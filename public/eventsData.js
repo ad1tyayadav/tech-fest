@@ -36,7 +36,7 @@ export const events = [
 export const eventsDetails = [
     {
         id: 1,
-        image: 'https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg',
+        image: 'https://media-hosting.imagekit.io//599669a71d674239/robo-obstacle.jpg?Expires=1832391930&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=QUF8TWdLytBlNdbiF7yH7UYOv0MkYBexxzsKRb7MvzlSeiA~VAlKDoYBzbJZI2EaZqYfug4Ozu1BPN95gDH4Q-ki~L6wWNnNBOfXZizDAx1zoyRQwa-tqBLWUsaUVXZnshO1YQWea37G1UFXSCopOPrpMaekO7hZnc2qKPfHVFsQIsxlHUBUU20pkNEQTjfYMz~H82qWcqgtGYl9RpTGB-xRtd1HryEsnb3eR5j8WlP2k99Jso0epHp~S~AIrWvtJMr0JEhraeeVdgU1kA5X0DX5cLwc0SaoBN56JgWLAd-LLqv0Ya-axIhKqzSHmygSRPSgu5HhUrI68AulWTM5EQ__',
         title: "Robo-Obstacle Race",
         details: "The goal is to build your own robot, either wired or wireless, within the required specifications in order to obtain the highest speed possible in order to outrun other robots on the track and cross the finish line in the shortest time possible.",
         generalInfo: ["Team size: 3-5", "Entry fee: ₹350", "Eligibilty: Student IDs Requried"],
@@ -74,7 +74,7 @@ export const eventsDetails = [
     {
 
         id: 2,
-        image: "https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg",
+        image: "https://media-hosting.imagekit.io//0fefec4318254cd7/robo-war.jpg?Expires=1832391930&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=K7IMWin9FzMfBTUNemTBpb3xtVkLo0X8YL3k2egM7Wvx3nJQFwO1zEBmVRkDaD5ORVqVGkAhrh-dDh4n~7nvT1bIlJKFuqR4FAiSMYr3GzaLtS4FuwVDcLPv4sWV6bZD0P2iIuIc8-jS4VGdshUYgSzcczkpxMIDORLrwQVLzuayg0p82FpOH9TaABuL-Ogw~ObIoJ1gVkiq3qrukszre4QYiti9I-xQq17YYT-b1nMRQIn4tu8IZohtqmKc7Lf9-kA13Fr1~KP5a5b4GPnK7uglObniTtyfnyW7ELCTWPNYuXHezv~ox1FyIhdUkQD4GLuOwIuykdTpbD83FmnwbQ__",
         title: "Robo-War",
         details: "The objective is to construct a robot, either wired or wireless, within the specified guidelines to knockout or push the opponent's robot out of the arena. The arena is equipped with a range of obstacles and hazards that will challenge your robot's durability and combat effectiveness.",
         generalInfo: [
@@ -128,7 +128,7 @@ export const eventsDetails = [
     {
 
         id: 3,
-        image: "https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg",
+        image: "https://media-hosting.imagekit.io//d76f6906551c47c8/linefollowing.jpg?Expires=1832391930&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JxIESIxvIHgrrEz3HdST4WJ0DPOBWDP5Eq4Bm8HPQZjx4itCMd6HfXbWz-HQqC4M~fo2MOE6umKuG9763Xqh9Lhmu5p0fVGBwU35girXu4XvDCQUa1t~znonep~V-sqUNYYbO6is84OmK4OBCfHxznpYHYcRtdRK-ykPzt9PznyE8ehRR94ca84-DIdg5t-VZSXmcaKBLawysWtyYDALzmcNuHF8v2mLxVMUeEyeqvdVHcS-1SZmhIFm10Bpa4SGrnXDzHKw03PvryREIrWCuDQ5WTVzQ0FkZvxBmm-CJdS1poRr56gbiDOILUyVDyeU89W84~ZRyPxgTqSoytLz-g__",
         title: "Line Following Bot",
         details: "Teams will design and build an autonomous robot capable of navigating a predefined track by following a black line on a white surface. The event emphasizes precision, speed, and technical expertise. Participants must demonstrate their bot’s ability to tackle various challenges, such as sharp turns, intersections, and curves, without human intervention.",
         generalInfo: [
