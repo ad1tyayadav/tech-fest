@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi'; // Import menu icons
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  // Function to check if a link is active
+  const isActive = (path) => location.pathname === path;
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-gray-800/80 backdrop-blur-md shadow-lg">
@@ -33,35 +37,55 @@ function Navbar() {
         >
           <Link
             to="/events"
-            className="block md:inline-block px-4 py-2 text-white hover:text-cyan-400 transition"
+            className={`block md:inline-block px-4 py-2 ${
+              isActive('/events')
+                ? 'text-cyan-400 font-bold'
+                : 'text-white hover:text-cyan-400'
+            } transition`}
             onClick={() => setIsOpen(false)}
           >
             Events
           </Link>
           <Link
             to="/schedule"
-            className="block md:inline-block px-4 py-2 text-white hover:text-cyan-400 transition"
+            className={`block md:inline-block px-4 py-2 ${
+              isActive('/schedule')
+                ? 'text-cyan-400 font-bold'
+                : 'text-white hover:text-cyan-400'
+            } transition`}
             onClick={() => setIsOpen(false)}
           >
             Schedule
           </Link>
           <Link
             to="/teams"
-            className="block md:inline-block px-4 py-2 text-white hover:text-cyan-400 transition"
+            className={`block md:inline-block px-4 py-2 ${
+              isActive('/teams')
+                ? 'text-cyan-400 font-bold'
+                : 'text-white hover:text-cyan-400'
+            } transition`}
             onClick={() => setIsOpen(false)}
           >
             Robo Rishis
           </Link>
           <Link
             to="/"
-            className="block md:inline-block px-4 py-2 text-white hover:text-cyan-400 transition"
+            className={`block md:inline-block px-4 py-2 ${
+              isActive('/')
+                ? 'text-cyan-400 font-bold'
+                : 'text-white hover:text-cyan-400'
+            } transition`}
             onClick={() => setIsOpen(false)}
           >
             Bug Busters
           </Link>
           <Link
             to="/funding-ninjas"
-            className="block md:inline-block px-4 py-2 text-white hover:text-cyan-400 transition"
+            className={`block md:inline-block px-4 py-2 ${
+              isActive('/funding-ninjas')
+                ? 'text-cyan-400 font-bold'
+                : 'text-white hover:text-cyan-400'
+            } transition`}
             onClick={() => setIsOpen(false)}
           >
             Funding Ninjas
