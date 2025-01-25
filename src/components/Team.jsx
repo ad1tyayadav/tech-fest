@@ -8,14 +8,14 @@ const Team = () => {
     {
       name: "Raju Ranjan Yadav",
       role: "Lead-Organiser",
-      image: "https://media.licdn.com/dms/image/v2/D4D03AQGFcM7LjPQBVg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673707254457?e=1743033600&v=beta&t=6Oq-LwDgpmO60oLE1Nl45JgiM82CV6ZRJz4-g2M8YLI",
+      image: "./raju.jpeg",
       linkedin: "https://www.linkedin.com/in/raju-ranjan-yadav-078222256/",
       github: "https://github.com/milliondreamsblog",
     },
     {
       name: "Devanshu Verma",
       role: "Team-Organiser",
-      image: "https://media.licdn.com/dms/image/v2/D4D03AQFy-TzBr4teLw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1679726826227?e=1743033600&v=beta&t=s-VDA9M6hkZVYaK20I21uFk1cZJTmYH7Kj8d5Pn1wMY", // Replace with actual image URLs
+      image: "./devanshu.jpeg", // Replace with actual image URLs
       linkedin: "https://www.linkedin.com/in/devanshu-verma-1487b026a/",
       github: "https://github.com/milliondreamsblog",
     },
@@ -29,7 +29,7 @@ const Team = () => {
     {
       name: "Akshat Darshi",
       role: "Tech-Lead",
-      image: "https://media.licdn.com/dms/image/v2/D5603AQHSBrR10HyzuQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1704621714877?e=1743033600&v=beta&t=9ti6V7OWvPqpI0kqjwkCh3lChNzd_PYJ-fWrL9uYfmM",
+      image: "./akshat.jpeg",
       linkedin: "https://www.linkedin.com/in/akshat-darshi/",
       github: "https://github.com/milliondreamsblog",
     },
