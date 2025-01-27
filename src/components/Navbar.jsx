@@ -97,6 +97,7 @@ function Navbar() {
           <Link
             to="/auth"
             className="inline-block px-6 py-2 text-black bg-cyan-500 hover:bg-cyan-400 rounded-lg font-semibold transition"
+            onClick={() => setIsOpen(false)}
           >
             Register
           </Link>
