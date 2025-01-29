@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <section className="mt-36 hero-section w-[100vw] h-[60vh] flex flex-col justify-center items-center text-center relative">
       <motion.h1
-        className="text-6xl md:text-8xl font-extrabold text-yellow-400 glitch-text"
+        className="text-6xl mt-20 md:text-8xl font-extrabold text-yellow-400 glitch-text"
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1 }}
@@ -17,7 +17,7 @@ function HeroSection() {
       </p>
       {/* Prize Pool Section */}
       <motion.div
-        className="mt-8 p-6 bg-gradient-to-r from-yellow-500 via-green-500 to-cyan-200 rounded-lg shadow-lg"
+        className="mt-20 p-6 bg-gradient-to-r from-violet-500 via-green-500 to-grey-700 rounded-lg shadow-lg"
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
@@ -27,7 +27,7 @@ function HeroSection() {
         </h2>
       </motion.div>
       {/* Buttons */}
-      <div className="mt-8 flex space-x-4">
+      <div className="mt-20 flex space-x-4">
         <button
           className="px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-lg font-semibold rounded-lg"
           onClick={() => window.open('/auth')}
