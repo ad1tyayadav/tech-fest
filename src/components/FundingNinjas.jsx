@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 const sponsors = [
   { id: 1, name: "CSJMIF", logo: "/inovation.jpg" },
   { id: 2, name: "Daily Wash", logo: "/dailywash.jpg" },
+  { id: 3, name: "Redbull", logo: "/redbull2.png" },
+  { id: 4, name: "Sahara", logo: "/sahara.jpg" }
 ];
 
 function FundingNinjas() {
