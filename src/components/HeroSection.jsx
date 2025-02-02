@@ -23,7 +23,7 @@ function HeroSection() {
         transition={{ duration: 1, delay: 0.5 }}
       >
         <h2 className="text-4xl font-bold text-white animate-pulse">
-          Prize Pool: ₹95,000
+          Prize Pool: ₹1,00,000
         </h2>
       </motion.div>
       {/* Buttons */}
@@ -43,7 +43,7 @@ function HeroSection() {
             )
           }
         >
-          Learn More
+          Brochure
         </button>
       </div>
     </section>
