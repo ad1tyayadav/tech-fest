@@ -36,7 +36,7 @@ export const events = [
 export const eventsDetails = [
     {
         id: 1,
-        image: 'https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg',
+        image: 'https://i.ytimg.com/vi/s2bIeA-lM8s/maxresdefault.jpg',
         title: "Robo-Obstacle Race",
         details: "The goal is to build your own robot, either wired or wireless, within the required specifications in order to obtain the highest speed possible in order to outrun other robots on the track and cross the finish line in the shortest time possible.",
         generalInfo: ["Team size: 3-5", "Entry fee: ₹350", "Eligibilty: Student IDs Requried"],
@@ -74,7 +74,7 @@ export const eventsDetails = [
     {
 
         id: 2,
-        image: "https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg",
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigswrvaJUv3b_b5SEySSrsq_pBAoPWhJOTRjMVQZWhRAPgo0EanEzcjDhOdMRSYwGkQtMjkVViirSD031-jUkqGvIVUAjIU5KExvQ5wGF6l1uQ40QjIoweyMHUKiVLKNt5qu_NeBMk5ZQ/s1600/Hexbug+Robot+Wars+Arena+constructed+asembled+.jpg",
         title: "Robo-War",
         details: "The objective is to construct a robot, either wired or wireless, within the specified guidelines to knockout or push the opponent's robot out of the arena. The arena is equipped with a range of obstacles and hazards that will challenge your robot's durability and combat effectiveness.",
         generalInfo: [
@@ -128,7 +128,7 @@ export const eventsDetails = [
     {
 
         id: 3,
-        image: "https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg",
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3PZUV5h0lQ236ixjNrZlXB3lkxL9HIVorzA4o_Yip3FR91mJXSl-OexyNOZmtRL53XfsR0o0JDe3ZMFqlfq5aWmoCMMn4SIzfS_w9EGwNII55QxAVbEnkKr5L0O4O4QGon14taoE7Wv2k/s1600/100_2273.JPG",
         title: "Line Following Bot",
         details: "Teams will design and build an autonomous robot capable of navigating a predefined track by following a black line on a white surface. The event emphasizes precision, speed, and technical expertise. Participants must demonstrate their bot’s ability to tackle various challenges, such as sharp turns, intersections, and curves, without human intervention.",
         generalInfo: [
@@ -180,7 +180,7 @@ export const eventsDetails = [
     {
 
         id: 4,
-        image: "https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoCKf_tlDS5hQtA9KuVW9mGZqrXmczxq5lN9ajNDGSzWDL8_Hs4mtPzj2c8AWatuYzMOE&usqp=CAU",
         title: "Robo-Soccer",
         details: "The objective is to construct a robot, either wired or wireless, within the specified guidelines to score goals and defend against the opponent's robot in a soccer match. Participants design and build their robots to navigate the field, dribble, pass, and shoot the ball, all while outsmarting the opposing team's robot. The matches are knockout battles, where the winner moves on to the next round.",
         generalInfo: [
@@ -238,7 +238,7 @@ export const eventsDetails = [
     },
     {
         id: 5,
-        image: "https://techfest.org/static/media/Cozmoclench.da96030f9c4bf326375a.jpg",
+        image: "https://www.frtech.fr/public/uploads/images/20240929/a2c56f24383d2c556006c8f1dda04941.jpg",
         title: "Showcase and Exhibition",
         details: "The Showcase and Exhibition aims to provide a platform for students, innovators, and enthusiasts to display their cutting-edge science projects. The event focuses on celebrating creativity, technical expertise, and innovation in Science, offering participants an opportunity to demonstrate how their project solves real-world problems or exhibits advanced capabilities in automation, artificial intelligence, and engineering.",
         generalInfo: [

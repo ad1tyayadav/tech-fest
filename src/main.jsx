@@ -14,7 +14,7 @@ import FundingNinjas from './components/FundingNinjas.jsx';
 import Schedule from './components/Schedule.jsx';
 import Contributors from './components/Contributers.jsx';
 import ErrorPage from './components/ErrorPage.jsx';
-
+import JoinUS from './components/Joinus.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -27,6 +27,7 @@ const router = createBrowserRouter([
             <CountdownTimer />
             <HeroSection />
             <EventList />
+            <JoinUS />
             <FundingNinjas />
             <Team />
           </>
