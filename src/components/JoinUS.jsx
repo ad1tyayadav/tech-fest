@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 
-function JoinUS() {
+function Joinus() {
   const [showContact, setShowContact] = useState(false);
 
   return (
@@ -83,4 +83,4 @@ function JoinUS() {
   );
 }
 
-export default JoinUS;
+export default Joinus;
