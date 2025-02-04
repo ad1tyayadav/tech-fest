@@ -8,7 +8,7 @@ function Joinus() {
 
   return (
     <div className="w-[100vw] sm:p-28">
-      <section className="relative w-full py-10 text-white px-4 sm:px-20 min-h-[80vh]">
+      <section className="mt-20 sm:mt-0 relative w-full py-10 text-white px-4 sm:px-20 min-h-[80vh]">
         <div className="text-center">
           <motion.h1
             className="text-4xl sm:text-5xl font-extrabold text-yellow-400 glitch-text"

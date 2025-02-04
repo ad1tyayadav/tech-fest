@@ -5,7 +5,7 @@ function RegisterForm() {
   const [error, setError] = useState("");
 
   return (
-    <div className="w-[100vw] relative z-[9999] min-h-screen mt-20 text-gray-200 flex flex-col items-center">
+    <div className="w-[100vw] relative z-[10] min-h-screen mt-20 text-gray-200 flex flex-col items-center">
       {/* Page Heading */}
       <motion.h1
         className="text-4xl sm:text-6xl font-extrabold text-center text-cyan-400 mt-12"
