@@ -84,7 +84,7 @@ function CountdownTimer() {
           <div className="flex flex-col items-center">
             <h3 className="text-lg sm:text-xl font-semibold text-yellow-300 mb-4">Innovation Partner</h3>
             <img
-              src="/inovation.jpg"
+              src="/csjaf.png"
               alt="Innovation Partner"
               className="h-40 sm:h-44 md:h-48 w-auto rounded-lg"
             />
