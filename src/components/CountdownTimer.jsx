@@ -32,8 +32,8 @@ function CountdownTimer() {
   return (
     <section className="relative top-10 countdown-section text-center py-10">
       {/* Green Registration Deadline Banner */}
-      <div className="relative bg-green-600 text-white text-lg sm:text-xl font-bold py-1 mb-10 ">
-        Last Date of Registration: 10th February
+      <div className="relative bg-green-600 text-glitch text-white text-lg sm:text-xl font-bold py-1 mb-10 ">
+        Last Date of Registration: 15th February
       </div>
 
       <motion.h2
