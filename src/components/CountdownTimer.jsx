@@ -52,7 +52,7 @@ function CountdownTimer() {
       >
         {Object.entries(timeLeft).map(([unit, value]) => (
           <motion.div
-            key={unit}
+            key={unit} 
             className="time-block bg-black border border-primary rounded-lg p-4 w-20 sm:w-24 md:w-32"
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
