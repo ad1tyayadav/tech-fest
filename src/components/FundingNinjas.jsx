@@ -7,7 +7,7 @@ const sponsors = [
   { id: 2, name: "Daily Wash", logo: "/dailywash.jpg" },
   { id: 3, name: "Redbull", logo: "/redbull2.png" },
   { id: 4, name: "Sahara", logo: "/sahara.jpg" },
-  // { id: 5, name: "Nkosh", logo: "/Nkosh.png" },
+  { id: 5, name: "Nkosh", logo: "/Nkosh.png" },
   { id: 6, name: "Dominos", logo: "/dominos.png" }
 ];
 
